@@ -1,0 +1,25 @@
+/*
+* Style sheet for woocommerce 
+*/
+/**  To change the color of button used */
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+		color: #ffffff;
+    	background-color: #e4144d;
+}
+
+/** hide update cart button if function used */
+.woocommerce input[name='update_cart'], button[name='update_cart'] {
+	
+	display: none !important;
+}
+/** hide Price column from cart page **/
+.woocommerce table.cart td:nth-of-type(4), .woocommerce table.cart th:nth-of-type(4) {
+display: none;
+}
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+    width:30%;
+}
+.home .breadcrumb-trail {
+    display: none !important;
+}
